@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxt/ui", "@vueuse/motion/nuxt", "@nuxt/image"],
+
   image: {
     q: 50,
     alias: {
@@ -21,4 +22,6 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  compatibilityDate: "2025-03-26",
 });

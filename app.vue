@@ -49,5 +49,5 @@ useHead({
       href: '/favicon.svg'
     }
   ]
-})
+});
 </script>
